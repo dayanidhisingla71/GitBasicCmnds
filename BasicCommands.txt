@@ -1,7 +1,7 @@
 GITHUB COMMANDS:
 
 1.git init
-Initializes a git repository – creates the initial .git directory in a new or in an existing project.This command turns a directory into an empty Git repository.
+Initializes a git repository Creates the initial .git directory in a new or in an existing project.This command turns a directory into an empty Git repository.
 Example:
 git init
 Initialized empty Git repository in /home/username/GIT/.git/
