@@ -1,0 +1,54 @@
+GITHUB COMMANDS:
+
+1.git init
+Initializes a git repository – creates the initial .git directory in a new or in an existing project.This command turns a directory into an empty Git repository.
+Example:
+git init
+Initialized empty Git repository in /home/username/GIT/.git/
+
+2.git add
+Adds files changes in your working directory to your index or Adds files in the to the staging area for Git. 
+Example:
+git add filename.extension
+
+3.git commit
+Takes all of the changes written in the index, creates a new commit object pointing to it and sets the branch to point to that new commit. 
+Record the changes made to the files to a local repository. For easy reference, each commit has a unique ID.
+Examples:
+git commit -m ‘committing added changes’
+git commit -a -m ‘committing all changes, equals to git add and git commit’
+
+4.git config
+Sets a configuration values for user name, email. 
+Example :
+git config --global user.name "My Name"
+git config --global user.email "user@domain.com"
+
+5.git push
+Pushes all the modified local objects to the remote repository and advances its branches. 
+Example:
+git push origin master
+
+6.git remote add origin   
+Used to add a new remote. 
+Example: 
+git remote add origin git@github.com:user/UserRepo.git
+
+7.git status
+Shows you the status of files in the index versus the working directory. It will list
+out files that are untracked (only in your working directory), modified (tracked
+but not yet updated in your index), and staged (added to your index and ready
+for committing). 
+Example:
+. git status
+. On branch master #
+. Initial commit #
+. Untracked files: #
+. (use "git add <file>..." to include in what will be committed) #
+ 
+8.git log
+Shows a listing of commits on a branch including the corresponding details.
+Example:
+.git log commit
+.84f241e8a0d768fb37ff7ad40e294b61a99a0abe Author: User
+.<user@domain.com> Date: Mon May 3 09:24:05 2010 +0300 first commit
